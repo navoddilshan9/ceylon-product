@@ -4,7 +4,7 @@ const userschema = new mongoose.Schema(
   {
     firstName: {
       type: String,
-      required: true,
+      // required: true,
     },
     middleName: {
       type: String,
@@ -12,7 +12,7 @@ const userschema = new mongoose.Schema(
     },
     lastName: {
       type: String,
-      required: true,
+      // required: true,
     },
 
     userID: {
@@ -29,7 +29,7 @@ const userschema = new mongoose.Schema(
     },
     Email: {
       type: String,
-      required: true,
+      // required: true,
     },
     streetNo: {
       type: String,
@@ -37,19 +37,19 @@ const userschema = new mongoose.Schema(
     },
     Street: {
       type: String,
-      required: true,
+      // required: true,
     },
     city: {
       type: String,
-      required: true,
+      // required: true,
     },
     country: {
       type: String,
-      required: true,
+      // required: true,
     },
     postalCode: {
       type: String,
-      required: true,
+      // required: true,
     },
     img: {
       data: Buffer,
